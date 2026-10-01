@@ -2,7 +2,7 @@ import type { Experience as ExperienceEntry } from "../types";
 
 function formatRange(startDate: string, endDate: string | null): string {
   const format = (iso: string) =>
-    new Date(iso).toLocaleDateString("en-US", { month: "short", year: "numeric" });
+    new Date(iso).toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
 
   return `${format(startDate)} — ${endDate ? format(endDate) : "Present"}`;
 }
