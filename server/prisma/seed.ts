@@ -193,15 +193,14 @@ async function main() {
   await prisma.experience.createMany({
     data: [
       {
-        company: 'Operation Spark',
-        role: 'IBC3: Fundamentals of JavaScript and Functional Programming',
-        location: 'Remote',
-        startDate: new Date('2023-01-01'),
-        endDate: null,
+        company: 'United States Marine Corps',
+        role: 'Aviation Structures Technician Level 3',
+        location: 'Huntsville, AL',
+        startDate: new Date('2022-12-01'),
+        endDate: new Date('2024-12-01'),
         description: [
-          'Own the order-processing service handling ~2M requests/day',
-          'Led migration from REST polling to event-driven websockets, cutting p95 latency by 90%',
-          'Mentor two junior engineers through code review and pairing',
+          'Aircraft maintenance supervisor for Night Crew work center overseeing maintenance on 12 MV-22 Osprey aircraft. Receiving various accolades for expedited aircraft maintenance efficiency',
+          'Phase coordinator and Naval program manager with experience in aviation safety, hazmat handling, dispersed naval aviation publications, quality assurance and personnel training programs.',
         ],
         sortOrder: 1,
       },
@@ -210,10 +209,10 @@ async function main() {
         role: 'Aviation Team Lead',
         location: 'Huntsville, AL',
         startDate: new Date('2019-05-19'),
-        endDate: new Date('2022-12-01'),
+        endDate: new Date('2022-9-16'),
         description: [
           'Led a team in executing complex aircraft maintenance operations, showcasing strong leadership and project management skills.',
-          'Utilized problem-solving abilities to address technical issues and ensure operational efficiency, while also maintaining a cohesive team and prioritizing the well-being of each team member',
+          'Utilized problem-solving abilities to address technical issues and ensure operational efficiency, while maintaining a cohesive team and prioritizing the well-being of each team member',
         ],
         sortOrder: 2,
       },
