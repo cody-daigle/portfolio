@@ -58,14 +58,20 @@ async function main() {
         sortOrder: 2,
       },
       {
-        title: 'API Rate Limiter Library',
-        slug: 'api-rate-limiter-library',
-        summary:
-          'A small, dependency-light sliding-window rate limiter for Node APIs.',
+        title: 'Discord Bot',
+        slug: 'Discord bot for teaching',
+        summary: 'A small, simple discord bot for teaching my nephews.',
         description:
-          'Extracted a rate-limiting utility used across three internal services into a standalone, published package with a sliding-window algorithm, pluggable storage (in-memory or Redis), and 100% branch coverage.',
-        techStack: ['TypeScript', 'Node.js', 'Redis'],
-        githubUrl: 'https://github.com/your-handle/api-rate-limiter',
+          'Discord bot with ping(latency), hello, rock-paper-scissors, YouTube music playback (play/skip/stop/queue) via yt-dlp, audio clip recording, and a custom D&D style game implemented into the commands.',
+        techStack: [
+          'JavaScript',
+          'Node.js',
+          'discord.js',
+          '@discordjs/voice',
+          'FFmpeg',
+          'yt-dlp',
+        ],
+        githubUrl: 'https://github.com/cody-daigle/discord-bot',
         liveUrl: null,
         imageUrl: null,
         featured: false,
