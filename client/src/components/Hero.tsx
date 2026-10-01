@@ -5,7 +5,7 @@ export default function Hero() {
       className='mx-auto flex max-w-5xl flex-col gap-6 px-6 pb-20 pt-24'>
       <p className='font-mono text-sm text-accent-light'>Hi, I'm</p>
       <h1 className='text-4xl font-bold tracking-tight text-slate-50 sm:text-6xl'>
-        Cody Daigle
+        Cody
       </h1>
       <h2 className='text-2xl font-semibold text-slate-400 sm:text-3xl'>
         End to end
