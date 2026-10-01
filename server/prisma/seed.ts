@@ -13,21 +13,23 @@ async function main() {
   await prisma.project.createMany({
     data: [
       {
-        title: 'Realtime Order Dashboard',
-        slug: 'realtime-order-dashboard',
-        summary:
-          'Live operations dashboard for tracking orders across warehouses.',
+        title: 'mkdev',
+        slug: 'mkdev',
+        summary: 'Centralized developer social instance',
         description:
-          'Built a websocket-driven dashboard that streams order and inventory events to warehouse staff in real time, replacing a 30-second polling loop. Cut perceived latency from ~15s to under 500ms and added role-based views for pickers, packers, and supervisors.',
+          'Developer social platform that pulls in Dev.to and Medium blogs, with Google and email login on an Express + TypeScript backend.',
         techStack: [
           'React',
           'TypeScript',
-          'Node.js',
-          'Socket.IO',
+          'Express',
           'PostgreSQL',
-          'Redis',
+          'Prisma',
+          'Material UI',
+          'Passport',
+          'Socket.IO',
+          'AWS',
         ],
-        githubUrl: 'https://github.com/your-handle/realtime-order-dashboard',
+        githubUrl: 'https://github.com/cody-daigle/mkdev',
         liveUrl: null,
         imageUrl: null,
         featured: true,
@@ -37,7 +39,7 @@ async function main() {
         title: 'This Portfolio',
         slug: 'fullstack-portfolio',
         summary:
-          "The site you're looking at — React, Express, and Postgres end to end.",
+          "The site you're looking at — React, Express, and Postgres; leveraging AI -> Claude by Anthropic.",
         description:
           'A fullstack portfolio built to demonstrate engineering practices rather than just list them: typed client and server, a real relational schema with migrations, request validation, rate limiting, automated tests on both sides, and a CI pipeline that runs them on every push.',
         techStack: [
@@ -49,7 +51,7 @@ async function main() {
           'Vitest',
           'GitHub Actions',
         ],
-        githubUrl: 'https://github.com/your-handle/fullstack-portfolio',
+        githubUrl: 'https://github.com/cody-daigle/portfolio',
         liveUrl: null,
         imageUrl: null,
         featured: true,
