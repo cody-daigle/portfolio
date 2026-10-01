@@ -114,7 +114,7 @@ async function main() {
       {
         name: 'Tailwind CSS',
         category: SkillCategory.FRONTEND,
-        proficiency: 4,
+        proficiency: 3,
         sortOrder: 3,
       },
 
@@ -133,7 +133,7 @@ async function main() {
       {
         name: 'Authentication & authorization',
         category: SkillCategory.BACKEND,
-        proficiency: 4,
+        proficiency: 5,
         sortOrder: 3,
       },
 
@@ -178,7 +178,7 @@ async function main() {
       {
         name: 'Vitest / Jest',
         category: SkillCategory.TOOLING,
-        proficiency: 4,
+        proficiency: 3,
         sortOrder: 1,
       },
       {
@@ -196,8 +196,8 @@ async function main() {
         company: 'United States Marine Corps',
         role: 'Aviation Structures Technician Level 3',
         location: 'Huntsville, AL',
-        startDate: new Date('2022-12-01'),
-        endDate: new Date('2024-12-01'),
+        startDate: new Date('2010-10-18'),
+        endDate: new Date('2015-10-18'),
         description: [
           'Aircraft maintenance supervisor for Night Crew work center overseeing maintenance on 12 MV-22 Osprey aircraft. Receiving various accolades for expedited aircraft maintenance efficiency',
           'Phase coordinator and Naval program manager with experience in aviation safety, hazmat handling, dispersed naval aviation publications, quality assurance and personnel training programs.',
