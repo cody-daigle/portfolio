@@ -11,10 +11,10 @@ export default function Hero() {
         End to end
       </h2>
       <p className='max-w-2xl text-slate-400'>
-        Software engineer focused on problem solving and creating innovative
-        ways to turn ideas into reliable products, from the database to the UI.
-        This site itself is a working example: a React client, an Express API,
-        and a Postgres database, with CI running the test suite on every push.
+        Focused on problem solving and creating innovative ways to turn ideas
+        into reliable products, from the database to the UI. This site itself is
+        a working example: a React client, an Express API, and a Postgres
+        database, with CI running the test suite on every push.
       </p>
       <div className='flex gap-4 pt-2'>
         <a
